@@ -1,0 +1,60 @@
+.jumbotron {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    background: linear-gradient(to right, rgb(218, 36, 49), rgb(122, 67, 151));
+}
+
+.jumbotron:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/img/bg-pattern.png) repeat;
+}
+
+.navbar-toggler::before {
+    content: 'Menu';
+}
+
+.social_media {
+    background: linear-gradient(to right, rgb(255, 195, 64), rgb(253, 197, 58));
+}
+
+.icoFacebook {
+    color: rgb(59, 89, 153);
+    background-color: white;
+    border-radius: 100%;
+}
+
+.icoTwitter {
+    color: white;
+    background-color: rgb(29, 161, 243);
+    border-radius: 100%;
+    padding: 0.6rem;
+}
+
+.icoGoogle {
+    background-color: rgb(221, 76, 57);
+    color: white;
+    border-radius: 100%;
+    padding: 0.6rem;
+}
+
+.background {
+    width: 100%;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    width: 79%;
+    height: 77%;
+    z-index: 2;
+    opacity: 100;
+}
